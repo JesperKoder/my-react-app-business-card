@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .App {
@@ -26,8 +27,9 @@
 /* TOP */
 
 .Top {
-  height: 40%;
+  height: 50%;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 img {
@@ -38,31 +40,55 @@ img {
 
 .top--Title {
   font-size: 2rem;
+  color: white;
+  margin-bottom: 2px;
 }
 
 .top--UnderTitle {
   font-size: 1rem;
+  color: goldenrod;
+  margin-bottom: 5px;
+
 }
 
 .top--Website {
   font-size: 0.8rem;
+  color: whitesmoke;
+  margin-bottom: 10px;
 }
 
 .top--Btn {
   width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
 }
+
+.top--Btn > a {
+  color: black;
+}
+
 
 /* MIDDLE PAGE */
 
 .Mid {
   height: 40%;
-  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: left;
+  color: white;
 }
 
 .mid--Titles {
+  /* text-align: left; */
+  padding: 2px;
 }
 
 .mid--Paragraph {
+  /* text-align: center; */
+  padding: 2px;
 }
 
 /* BOTTOM PAGE */
@@ -75,5 +101,7 @@ img {
   justify-content: center;
 }
 
-.bot--Icon {
+.Bot > .material-icons {
+  color: white;
+  margin: 0 10px;
 }

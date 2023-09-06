@@ -4,10 +4,11 @@ import React from "react";
 export default function Bot() {
   return (
     <div className="Bot">
-      <img src="" className="bot--Icon" alt="Twitter" />
-      <img src="" className="bot--Icon" alt="Facebook" />
-      <img src="" className="bot--Icon" alt="Instagram" />
-      <img src="" className="bot--Icon" alt="Github" />
+      <i className="material-icons">cloud</i>
+      <i className="material-icons">favorite</i>
+      <i className="material-icons">attachment</i>
+      <i className="material-icons">computer</i>
+      <i className="material-icons">traffic</i>
     </div>
   );
 }
