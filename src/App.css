@@ -1,38 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Container {
+  background-color: #3e4656;
+  height: 90vh;
+  width: 25%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* TOP */
+
+.Top {
+  height: 40%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px 10px 0 0;
+}
+
+.top--Title {
+  font-size: 2rem;
+}
+
+.top--UnderTitle {
+  font-size: 1rem;
+}
+
+.top--Website {
+  font-size: 0.8rem;
+}
+
+.top--Btn {
+  width: 90%;
+}
+
+/* MIDDLE PAGE */
+
+.Mid {
+  height: 40%;
+  text-align: center;
+}
+
+.mid--Titles {
+}
+
+.mid--Paragraph {
+}
+
+/* BOTTOM PAGE */
+
+.Bot {
+  background-color: black;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bot--Icon {
 }
