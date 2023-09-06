@@ -63,7 +63,9 @@ img {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  padding-right: 40px;
   background-color: white;
+  text-align: center;
 }
 
 .top--Btn > a {
@@ -84,11 +86,13 @@ img {
 .mid--Titles {
   /* text-align: left; */
   padding: 2px;
+  font-size: 1rem;
 }
 
 .mid--Paragraph {
   /* text-align: center; */
   padding: 2px;
+  font-size: 0.8rem;
 }
 
 /* BOTTOM PAGE */
@@ -104,4 +108,28 @@ img {
 .Bot > .material-icons {
   color: white;
   margin: 0 10px;
+}
+
+
+@media screen and (min-width: 368px) {
+  .container {
+    width: 20%;
+  }
+}
+/* Media Query for Tablets (768px and above) */
+@media screen and (min-width: 768px) {
+  .Container {
+    width: 25%; /* Adjust the width for tablets */
+  }
+
+  /* Add any other styles you want to change for tablets here */
+}
+
+/* Media Query for Larger Screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .Container {
+    width: 30%; /* Adjust the width for larger screens */
+  }
+
+  /* Add any other styles you want to change for larger screens here */
 }
